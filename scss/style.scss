@@ -1,0 +1,169 @@
+@import "reset.scss";
+@import "fonts.scss";
+
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    &__logo {
+        width: 87px;
+        height: 41px;
+    }
+}
+
+.menu {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+    &__link {
+        color: #000000;
+        font-family: Tahoma;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        text-decoration: none;
+    }
+}
+
+.banner {
+    width: 810px;
+    max-height: 269px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+    &__photo {
+        height: 230px;
+        width: 380px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    }
+
+    &__content {}
+
+
+    &__content-title {
+        width: 320px;
+        height: 76px;
+        color: #000000;
+        font-family: Tahoma;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+
+    &__content-text {
+        width: 373px;
+        height: 93px;
+        color: #8d8d8d;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Times New Roman";
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    &__content-button {
+        width: 115px;
+        height: 29px;
+        color: #fefefe;
+        font-family: Tahoma;
+        background-color: #da4137;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        border: none;
+        border-radius: 2px;
+    }
+}
+
+.item {
+    margin-top: 25px;
+
+    &__header {
+        width: 363px;
+        height: 18px;
+        color: #000000;
+        font-family: Tahoma;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 19px;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        width: 834px;
+        min-height: 53px;
+        color: #8d8d8d;
+        font-family: "Times New Roman PSMT";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+.item:last-of-type{
+    margin-bottom: 50px;
+}
+
+.benefits {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    &__column {
+        display: flex;
+        max-width: 190px;
+        justify-content: space-between;
+    }
+
+    &__column-img {
+        width: 44px;
+        height: 38px;
+        margin-right: 7px;
+    }
+
+    &__column-text {
+        color: #000000;
+        font-weight: 400;
+        font-family: "Times New Roman PS - Italic MT";
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 2px;
+        font-style: italic;
+    }
+}
+
+.size1 {
+    width: 89px;
+    height: 31px;
+}
+
+.size2 {
+    width: 120px;
+    height: 31px;
+}
+
+.size3 {
+    width: 52px;
+    height: 31px;
+}
+
+.size4 {
+    width: 90px;
+    height: 28px;
+}
